@@ -1,6 +1,6 @@
 # Blogging_API_using_NodeJS_GCF_MongoDB
 
-API to perform CRUD operations on blogs
+API to perform CRUD operations on blogs. <br/>
 The API is created with a NodeJS server deployed as a GCF ( Google Cloud Function ). The blogs are stored in MongoDB.
 <br/><br/>
 <p><strong>Blogging API Documentation:</strong></p>
