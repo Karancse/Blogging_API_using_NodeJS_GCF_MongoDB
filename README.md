@@ -4,6 +4,14 @@ API to perform CRUD operations on blogs. <br/>
 The API server is created using NodeJS and deployed as a GCF ( Google Cloud Function ). The blogs are stored in MongoDB.
 <br/><br/>
 <p><strong>Blogging API Documentation:</strong></p>
+<p><strong>/</strong></p>
+<p><a href="https://asia-south1-stackruit-assessment.cloudfunctions.net/test1/"><span style="font-weight: 400;">https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/</span></a></p>
+<p><strong>Methods allowed:</strong><span style="font-weight: 400;"> Any</span></p>
+<p><strong>Description: </strong><span style="font-weight: 400;">The base url of the GCF function which contains all the Blogging APIs.</span></p>
+<p><strong>Response:</strong></p>
+<p><strong>Status:</strong><span style="font-weight: 400;"> 200 &nbsp; </span> <span style="font-weight: 400;">Specify any resource in the url</span></p>
+<p><strong>Status:</strong><span style="font-weight: 400;"> 404</span> <span style="font-weight: 400;">Resource {resource in url} not found. Enter a valid path</span></p>
+<p>&nbsp;</p>
 <p><strong>/getBlogs</strong></p>
 <p><a href="https://asia-south1-stackruit-assessment.cloudfunctions.net/test1/getBlogs"><span style="font-weight: 400;">https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/getBlogs</span></a></p>
 <p><strong>Methods allowed:</strong><span style="font-weight: 400;"> GET or POST&nbsp;</span></p>
@@ -68,12 +76,4 @@ The API server is created using NodeJS and deployed as a GCF ( Google Cloud Func
 <p><strong>Status:</strong><span style="font-weight: 400;"> 449</span> <span style="font-weight: 400;">Title field is required</span></p>
 <p><strong>Example:</strong></p>
 <p><a href="https://asia-south1-stackruit-assessment.cloudfunctions.net/test1/deleteBlog?title=document2"><span style="font-weight: 400;">https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/deleteBlog?title=document2</span></a></p>
-<p>&nbsp;</p>
-<p><strong>/</strong></p>
-<p><a href="https://asia-south1-stackruit-assessment.cloudfunctions.net/test1/"><span style="font-weight: 400;">https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/</span></a></p>
-<p><strong>Methods allowed:</strong><span style="font-weight: 400;"> Any</span></p>
-<p><strong>Description: </strong><span style="font-weight: 400;">The base url of the GCF function which contains all the Blogging APIs.</span></p>
-<p><strong>Response:</strong></p>
-<p><strong>Status:</strong><span style="font-weight: 400;"> 200 &nbsp; </span> <span style="font-weight: 400;">Specify any resource in the url</span></p>
-<p><strong>Status:</strong><span style="font-weight: 400;"> 404</span> <span style="font-weight: 400;">Resource {resource in url} not found. Enter a valid path</span></p>
 <p>&nbsp;</p>
