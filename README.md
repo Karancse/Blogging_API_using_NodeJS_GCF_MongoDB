@@ -25,6 +25,7 @@ The API server is created using NodeJS and deployed as a GCF ( Google Cloud Func
 <p><strong>Response:</strong></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 200 &nbsp; </span> <span style="font-weight: 400;">List of blogs matching the search query</span></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 204 &nbsp; </span> <span style="font-weight: 400;">There are no blogs matching the search query</span></p>
+<p><strong>Status:</strong><span style="font-weight: 400;"> 400 &nbsp; </span> <span style="font-weight: 400;">Bad Request</span></p>
 <p><strong>Example:</strong></p>
 <p><a href="https://asia-south1-stackruit-assessment.cloudfunctions.net/test1/getBlogs?author=John&amp;content=document"><span style="font-weight: 400;">https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/getBlogs?author=John&amp;content=document</span></a></p>
 <p>&nbsp;</p>
@@ -40,6 +41,7 @@ The API server is created using NodeJS and deployed as a GCF ( Google Cloud Func
 </ol>
 <p><strong>Response:</strong></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 201 &nbsp; </span> <span style="font-weight: 400;">Blog {title passed in parameters} has been posted Successfully</span></p>
+<p><strong>Status:</strong><span style="font-weight: 400;"> 400 &nbsp; </span> <span style="font-weight: 400;">Bad Request</span></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 403</span> <span style="font-weight: 400;">Title value must be unique. A blog with the title {title passed in parameters} already exists</span></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 449</span> <span style="font-weight: 400;">Title field is required</span></p>
 <p><strong>Example:</strong></p>
@@ -57,6 +59,7 @@ The API server is created using NodeJS and deployed as a GCF ( Google Cloud Func
 </ol>
 <p><strong>Response:</strong></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 200 &nbsp; </span> <span style="font-weight: 400;">The Blog {title passed in parameters} has been updated Successfully</span></p>
+<p><strong>Status:</strong><span style="font-weight: 400;"> 400 &nbsp; </span> <span style="font-weight: 400;">Bad Request</span></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 403</span> <span style="font-weight: 400;">No blog with the specified title {title passed in parameters} exists</span></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 449</span> <span style="font-weight: 400;">Title field is required</span></p>
 <p><strong>Example:</strong></p>
@@ -72,6 +75,7 @@ The API server is created using NodeJS and deployed as a GCF ( Google Cloud Func
 </ol>
 <p><strong>Response:</strong></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 200 &nbsp; </span> <span style="font-weight: 400;">The Blog {title passed in parameters} has been deleted successfully</span></p>
+<p><strong>Status:</strong><span style="font-weight: 400;"> 400 &nbsp; </span> <span style="font-weight: 400;">Bad Request</span></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 403</span> <span style="font-weight: 400;">No blog with the specified title {title passed in parameters} exists</span></p>
 <p><strong>Status:</strong><span style="font-weight: 400;"> 449</span> <span style="font-weight: 400;">Title field is required</span></p>
 <p><strong>Example:</strong></p>
