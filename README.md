@@ -5,7 +5,7 @@ The API server is created using NodeJS and deployed as a GCF ( Google Cloud Func
 <br/><br/>
 <p><strong>Blogging API Documentation:</strong></p>
 <p><strong>/</strong></p>
-<p><a href="https://asia-south1-stackruit-assessment.cloudfunctions.net/test1/"><span style="font-weight: 400;">https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/</span></a></p>
+<p><a href="https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/"><span style="font-weight: 400;">https://asia-south1-stackruit-assessment.cloudfunctions.net/blogs/</span></a></p>
 <p><strong>Methods allowed:</strong><span style="font-weight: 400;"> Any</span></p>
 <p><strong>Description: </strong><span style="font-weight: 400;">The base url of the GCF function which contains all the Blogging APIs.</span></p>
 <p><strong>Response:</strong></p>
